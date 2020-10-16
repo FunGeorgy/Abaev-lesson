@@ -181,4 +181,21 @@ anime({
   loop: true,
 })
 
+anime({
+  targets:[picture[4]],
+    x: {
+    value: 400,
+    duration: 500
+  },
+  y:{
+    value: 400,
+    duration: 1000
+  },
+  easing: 'easeInOutQuad',
+  duration: 1000,
+  easing: 'steps(10)',
+  direction: 'alternate',
+  loop: true,
+})
+
 // const app = new PIXI.Application();
