@@ -263,7 +263,7 @@ this.app.ticker.add(() =>
 }
 BlendModes(){
     document.body.appendChild(this.app.view);
-const backgroung = PIXI.Sprite.from('assets/unnamed.jpg');
+const backgroung = PIXI.Sprite.from('assets/images/unnamed.jpg');
 backgroung.width = this.app.screen.width;
 backgroung.height = this.app.screen.height;
 this.app.stage.addChild(backgroung);
