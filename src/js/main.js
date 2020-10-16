@@ -193,7 +193,6 @@ anime({
   },
   easing: 'easeInOutQuad',
   duration: 1000,
-  easing: 'steps(10)',
   direction: 'alternate',
   loop: true,
 })
