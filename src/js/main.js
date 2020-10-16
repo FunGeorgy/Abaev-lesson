@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js'
-import anime from 'animejs/lib/anime.es.js'
+import anime from 'animejs'
 import {app} from '../js/applicationtype.js'
 import {Animation} from '../js/compilator.js'
 
@@ -94,107 +94,107 @@ app.stage.addChild(sprite);
 
 }
 console.log('спрайт', sprite);
-anime({
-  targets:[sprite],
-    x: {
-    value: 500,
-    duration: 1000
-  },
-  easing: 'easeInOutQuad',
-  duration: 500,
-  easing: 'linear',
-  direction: 'alternate',
-  rotation: 36,
-  loop: true,
+// anime({
+//   targets:[sprite],
+//     x: {
+//     value: 500,
+//     duration: 1000
+//   },
+//   easing: 'easeInOutQuad',
+//   duration: 500,
+//   easing: 'linear',
+//   direction: 'alternate',
+//   rotation: 36,
+//   loop: true,
   
-})
+// })
 
-anime({
-  targets:[picture[0]],
-    x: {
-    value: -500,
-    duration: 1000
-  },
-  y:{
-    value:1000,
-    duration: 1000
-  },
-  easing: 'easeInOutQuad',
-  duration: 500,
-  easing: 'linear',
-  direction: 'alternate',
-  rotation: 2,
-  loop: true,
-})
-anime({
-  targets:[picture[1]],
-    x: {
-    value: -500,
-    duration: 500
-  },
-  y:{
-    value:200,
-    duration: 500
-  },
-  easing: 'easeInOutQuad',
-  duration: 300,
-  easing: 'linear',
-  direction: 'alternate',
-  loop: true,
-})
+// anime({
+//   targets:[picture[0]],
+//     x: {
+//     value: -500,
+//     duration: 1000
+//   },
+//   y:{
+//     value:1000,
+//     duration: 1000
+//   },
+//   easing: 'easeInOutQuad',
+//   duration: 500,
+//   easing: 'linear',
+//   direction: 'alternate',
+//   rotation: 2,
+//   loop: true,
+// })
+// anime({
+//   targets:[picture[1]],
+//     x: {
+//     value: -500,
+//     duration: 500
+//   },
+//   y:{
+//     value:200,
+//     duration: 500
+//   },
+//   easing: 'easeInOutQuad',
+//   duration: 300,
+//   easing: 'linear',
+//   direction: 'alternate',
+//   loop: true,
+// })
 
-// for(let i = 0; i < 100; i++)
-// {
-//   anime({
-//     targets:[buggys[i]],
-//       x: {
-//       value: Math.Random() *800 - 400,
-//       duration: Math.Random() + 200,
-//     },
-//     y:{
-//       value: Math.Random() *600 - 300,
-//       duration: Math.Random() + 200,
-//     },
-//     duration: 300,
-//     easing: ('steps([0])',Math.Random() + 2),
-//     direction: 'alternate',
-//     rotation: Math.Random() + 10,
-//     loop: true,
-//     alpha: 0.4,
-//   })
-// }
+// // for(let i = 0; i < 100; i++)
+// // {
+// //   anime({
+// //     targets:[buggys[i]],
+// //       x: {
+// //       value: Math.Random() *800 - 400,
+// //       duration: Math.Random() + 200,
+// //     },
+// //     y:{
+// //       value: Math.Random() *600 - 300,
+// //       duration: Math.Random() + 200,
+// //     },
+// //     duration: 300,
+// //     easing: ('steps([0])',Math.Random() + 2),
+// //     direction: 'alternate',
+// //     rotation: Math.Random() + 10,
+// //     loop: true,
+// //     alpha: 0.4,
+// //   })
+// // }
 
-anime({
-  targets:[picture[4]],
-    x: {
-    value: -350,
-    duration: 1000
-  },
-  y:{
-    value:-400,
-    duration: 1000
-  },
-  easing: 'easeInOutQuad',
-  duration: 300,
-  easing: 'steps(5)',
-  direction: 'alternate',
-  loop: true,
-})
+// anime({
+//   targets:[picture[4]],
+//     x: {
+//     value: -350,
+//     duration: 1000
+//   },
+//   y:{
+//     value:-400,
+//     duration: 1000
+//   },
+//   easing: 'easeInOutQuad',
+//   duration: 300,
+//   easing: 'steps(5)',
+//   direction: 'alternate',
+//   loop: true,
+// })
 
-anime({
-  targets:[picture[4]],
-    x: {
-    value: 400,
-    duration: 500
-  },
-  y:{
-    value: 400,
-    duration: 1000
-  },
-  easing: 'easeInOutQuad',
-  duration: 1000,
-  direction: 'alternate',
-  loop: true,
-})
+// anime({
+//   targets:[picture[4]],
+//     x: {
+//     value: 400,
+//     duration: 500
+//   },
+//   y:{
+//     value: 400,
+//     duration: 1000
+//   },
+//   easing: 'easeInOutQuad',
+//   duration: 1000,
+//   direction: 'alternate',
+//   loop: true,
+// })
 
 // const app = new PIXI.Application();
