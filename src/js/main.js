@@ -4,10 +4,10 @@ import {app} from '../js/applicationtype.js'
 import {Animation} from '../js/compilator.js'
 
 document.body.appendChild(app.view);
-const v = 'assets/abay1.jpg'
-const s = 'assets/bunny.png'
-const y = 'assets/dick.png'
-const x = 'assets/abay.jpg'
+const v = 'assets/images/abay1.jpg'
+const s = 'assets/images/bunny.png'
+const y = 'assets/images/dick.png'
+const x = 'assets/images/abay.jpg'
 let animation = new Animation(app, v, s, y, x);
 const container = new PIXI.Container();
 const sprite = PIXI.Sprite.from(x);
